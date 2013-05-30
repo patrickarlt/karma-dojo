@@ -1,17 +1,17 @@
-# A simple example of using Karma on a Dojo website
+# An example of using Karma on a Dojo website
 
 This example serves a debugging purpose to try to make Karma running with Dojo.
 
 ## Current State
 
-The test page `index.html` is working.
+The test page `index.html` is working, but testing using Karma fails.
 
 ## What's not working
 
 ### Launching the tests
 
 When Karma is launched, the files that should be loaded by Dojo are canceled:
-[img/dev-tools.png]
+![Dev tools screenshot](https://raw.github.com/gmarty/karma-dojo/master/img/dev-tools.png)
 
 Because of this, no tests are loaded/executed and the terminal shows a success message.
 
